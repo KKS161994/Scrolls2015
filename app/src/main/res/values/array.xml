@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drawer_options">
+        <item>About Scrolls</item>
+        <item>Register</item>
+        <item>Upload A Doc</item>
+        <item>Query Us</item>
+        <item>Reach Us</item>
+        <item>About Us</item>
+<<<<<<< HEAD
+    </string-array>
+
+    <string-array name="category_icons">
+        <item>@drawable/image1</item>
+        <item>@drawable/image2</item>
+        <item>@drawable/image3</item>
+        <item>@drawable/image4</item>
+        <item>@drawable/image5</item>
+        <item>@drawable/image6</item>
+    </string-array>
+
+    <string-array name="category_titles">
+        <item>Management Sciences</item>
+        <item>Computer Sciences &amp; Information Technology</item>
+        <item>Electronics and Communication Technologies</item>
+        <item>Electrical and Electronics Technologies</item>
+        <item>Mechanical Engineering</item>
+        <item>Civil Engineering</item>
+    </string-array>
+
+    <string-array name="management">
+        <item>Troubles of Chinese Economy open-up a window of opportunities for India: Comment</item>
+        <item>Downward slide of Rupee V/s Dollar-Opportunities and Challenges</item>
+        <item>Make in India: Opportunities and Challenges</item>
+        <item>Role of Start-ups in Emerging Economies</item>
+        <item>Recent Developments in India’s Foreign Trade and their long term likely impact</item>
+        <item>Which is more important- Value of Customer or Value to the Customer</item>
+        <item>Emerging Trends in Internet Marketing.</item>
+        <item>Land Acquisition Bill: Its application to the Economic Growth of India</item>
+        <item>The Crucial Role of Skill Development in Winning the War against Unemployment</item>
+        <item>Role of ‘Niti Aayog’ in Future Development of India</item>
+    </string-array>
+
+    <string-array name="cs_it">
+        <item>Embedded Systems</item>
+        <item>Augmented Reality</item>
+        <item>Natural Language Processing</item>
+        <item>Genetic Algorithms</item>
+        <item>Cloud Computing</item>
+        <item>Bio-Inspired Computing</item>
+        <item>Semantic Web</item>
+        <item>Soft Computing including multi-criteria Analysis</item>
+        <item>Artificial Intelligence</item>
+        <item>Big Data Analytics</item>
+    </string-array>
+
+    <string-array name="ec">
+        <item>4G Technology</item>
+        <item>Mobile Satellite Communication</item>
+        <item>Future of Mobile Technology</item>
+        <item>Optoelectronics</item>
+        <item>Nanotechnology</item>
+        <item>VLSI</item>
+=======
+        <item>Forgot ID</item>
+>>>>>>> kartikey
+    </string-array>
+
+    <string-array name="en">
+        <item>Artificial Intelligence in Substation Control</item>
+        <item>Automated Energy Meter Reading for Billing Purpose</item>
+        <item>I-Series Processor</item>
+        <item>Electromagnetic Bomb</item>
+        <item>Humanoid Robotics</item>
+        <item>MEMS</item>
+        <item>Night Vision Technology</item>
+        <item>Power Quality Issues with Grid Connected Wind Energy Systems</item>
+        <item>Renewable Energy &amp; Environment Protection</item>
+        <item>Smart City Development in India-Concept &amp; Challenges</item>
+        <item>Maglev Vehicles</item>
+    </string-array>
+
+    <string-array name="me">
+        <item>Application of Nanotechnology in health monitor treatment</item>
+        <item>Power Generation using Nano-carbon tubes</item>
+        <item>Cryogenic Engines</item>
+        <item>Application of CAD software (Catia, ProE) and designing software’s</item>
+        <item>Automatic Transmission in Automobiles</item>
+        <item>Hydraulic and pneumatic actuators</item>
+        <item>Gear Fault detection in gear box using oil conditioning monitoring</item>
+        <item>Improvisation during the last two decades in passenger cars</item>
+        <item>Advanced radiator concepts and smart materials</item>
+        <item>Recent trends in Mechanical Engineering</item>
+        <item>Kinematics/dynamics of Robotic Manipulators</item>
+        <item>Robotic Applications: Present &amp; Future</item>
+    </string-array>
+
+    <string-array name="ce">
+        <item>Earthquake Engineering - Seismic risk reduction in NCR region</item>
+        <item>Water Supply &amp; Sanitation under Swachh Bharat Abhiyan</item>
+        <item>Evolution of Skyscrapers</item>
+        <item>Application of remote Sensing and GIS techniques</item>
+        <item>Interlinking of Indian Rivers- Challenges and Prospects</item>
+        <item>Intelligent Transportation System</item>
+        <item>Passive Solar Building</item>
+        <item>Tunnel Engineering- Analysis of Tunnel/Rock slope</item>
+        <item>Use of Fly Ash Blast Furnace Slag in Building Construction Concrete Technology</item>
+        <item>Risk Management in infrastructure-contract Management</item>
+        <item>Green Building</item>
+
+    </string-array>
+
+
+</resources>

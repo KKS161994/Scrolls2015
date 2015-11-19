@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Register Yourself Here"
+                android:textColor="#000"
+                android:textSize="25sp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/name_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter your Name" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Course"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <Spinner
+                        android:id="@+id/courseCategories"
+                        style="@style/spinner_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:padding="5dp" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Year"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <Spinner
+                        android:id="@+id/year"
+                        style="@style/spinner_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:padding="5dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="College"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <Spinner
+                        android:id="@+id/college"
+
+                        style="@style/spinner_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:padding="5dp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/otherCollege"
+                    android:visibility="gone">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp" />
+
+                    <EditText
+                        android:id="@+id/otherCollegeText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Please Specify"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Student Id*"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/studentid_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Ex 1111111" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mobile No."
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/mobilenumberet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="9999999999"
+                        android:inputType="number"
+                        android:maxLength="10" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email Id"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/emailidet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Ex abc@def.com" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Accomodation?"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <CheckBox
+                        android:id="@+id/accomodation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Hello"
+                        android:textColor="#000" />
+
+                </TableRow>
+                <!--
+                            <Button
+                                android:id="@+id/SubmitSingleRegistration"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#440C0C"
+                                android:text="Submit" />
+
+                -->
+            </TableLayout>
+
+            <Button
+                android:layout_marginBottom="10dp"
+                android:id="@+id/SubmitSingleRegistration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#440C0C"
+                android:text="Submit" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+
+</RelativeLayout>

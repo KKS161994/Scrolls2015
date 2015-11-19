@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> origin/kartikey
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Create New Team"
+                android:textColor="#000"
+                android:textSize="25sp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Team Name*"
+
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/teamname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter your name"
+<<<<<<< HEAD
+                        android:text="Kartik"
+                        android:textColor="#000" />
+=======
+                        android:textColor="#000"
+                        android:text="Kartik"
+                        />
+>>>>>>> origin/kartikey
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No. of members"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+                    <RadioGroup
+                        android:id="@+id/radiogroupMembers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/membertwo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="2" />
+
+                        <RadioButton
+                            android:id="@+id/memberthree"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="3" />
+
+                    </RadioGroup>
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Registration Id's and names of members:"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/regidmemberone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/regidmemberoneet"
+                    android:layout_alignTop="@+id/regidmemberoneet"
+                    android:gravity="center"
+                    android:text="Member 1*"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/regidmemberoneet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/regidmemberone"
+                    android:hint="Reg Id"
+<<<<<<< HEAD
+                    android:text="123456"
+                    android:textColor="#000"
+=======
+                    android:textColor="#000"
+                    android:text="123456"
+>>>>>>> origin/kartikey
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/namememberoneet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/regidmemberone"
+                    android:hint="Name"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/regidmembertwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/regidmembertwoet"
+                    android:layout_alignTop="@+id/regidmembertwoet"
+                    android:layout_below="@+id/namememberoneet"
+                    android:gravity="center"
+                    android:text="Member 2*"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/regidmembertwoet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namememberoneet"
+                    android:layout_toRightOf="@+id/regidmembertwo"
+                    android:hint="Reg Id"
+                    android:text="123456"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/namemembertwoet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/regidmembertwo"
+                    android:hint="Name"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/regidmemberthree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/regidmemberthreeet"
+                    android:layout_alignTop="@+id/regidmemberthreeet"
+                    android:layout_below="@+id/namemembertwoet"
+                    android:gravity="center"
+                    android:text="Member 3*"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/regidmemberthreeet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namemembertwoet"
+                    android:layout_toRightOf="@+id/regidmemberthree"
+                    android:hint="Reg Id"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/namememberthreeet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/regidmemberthree"
+                    android:hint="Name"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:visibility="gone" />
+<<<<<<< HEAD
+
+                <TextView
+                    android:id="@+id/teamleadertext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namememberthreeet"
+                    android:text="Leader"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:id="@+id/teamleader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/namememberthreeet"
+                    android:layout_toRightOf="@+id/teamleadertext"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/leaderone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/leadertwo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/leaderthree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:visibility="gone" />
+
+                </RadioGroup>
+
+=======
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Leader"
+    android:id="@+id/teamleadertext"
+    android:textSize="18sp"
+    android:layout_below="@+id/namememberthreeet"
+    />
+                <RadioGroup
+    android:id="@+id/teamleader"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_toRightOf="@+id/teamleadertext"
+                    android:layout_below="@+id/namememberthreeet"
+    >
+    <RadioButton
+        android:id="@+id/leaderone"
+        android:checked="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        />
+
+    <RadioButton
+        android:id="@+id/leadertwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        />
+
+    <RadioButton
+        android:visibility="gone"
+        android:id="@+id/leaderthree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        />
+
+</RadioGroup>
+>>>>>>> origin/kartikey
+                <TextView
+
+                    android:id="@+id/domainText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/teamleader"
+                    android:text="Domain"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/domain"
+                    style="@style/spinner_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/teamleader"
+                    android:layout_toRightOf="@+id/domainText" />
+
+                <TextView
+                    android:id="@+id/topicText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/domain"
+                    android:text="Topic"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/topics"
+                    style="@style/spinner_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/domain"
+                    android:layout_below="@+id/domain"
+                    android:layout_toRightOf="@+id/topicText" />
+
+
+                <TextView
+                    android:id="@+id/passwordText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/topics"
+                    android:text="Password"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/password"
+<<<<<<< HEAD
+=======
+                    android:text="hello"
+                    android:textColor="#000"
+>>>>>>> origin/kartikey
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/topics"
+                    android:layout_toRightOf="@+id/passwordText"
+<<<<<<< HEAD
+                    android:hint="Enter Password"
+                    android:text="hello"
+                    android:textColor="#000" />
+=======
+                    android:hint="Enter Password" />
+>>>>>>> origin/kartikey
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/createteam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#440C0C"
+                android:text="Create" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+
+<<<<<<< HEAD
+</RelativeLayout>
+=======
+</RelativeLayout>
+>>>>>>> origin/kartikey

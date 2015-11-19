@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+<<<<<<< HEAD
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/ColorPrimary"
+    android:theme="@style/Base.ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/iv_toolbar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/start_blue" />
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+=======
+    android:layout_height="wrap_content"
+    android:background="@color/theme_color"
+    android:theme="@style/Base.ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/start_blue"
+        android:id="@+id/iv_toolbar"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/app_title"
+        />
+>>>>>>> origin/kartikey
+</android.support.v7.widget.Toolbar>

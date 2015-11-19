@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RadioGroup
+        android:id="@+id/radioGroupRegistrationType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/boardradiobuttonLoad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/radio_selector"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Single"
+            android:textColor="@drawable/radio_color" />
+
+        <RadioButton
+            android:id="@+id/boardradiobuttonTruck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/radio_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Team"
+            android:textColor="@drawable/radio_color" />
+    </RadioGroup>
+    <!--android:background="@drawable/gender_switch"-->
+    <FrameLayout
+        android:id="@+id/fragmetRegistrationType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+<<<<<<< HEAD
+</LinearLayout>
+=======
+</LinearLayout>
+>>>>>>> origin/kartikey

@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Scrolls2015</string>
+    <string name="action_settings">Action settings</string>
+    <string name="submit">Submit</string>
+    <string name="query">Please enter your query</string>
+    <string name="email">Email</string>
+    <string name="DeveloperTeam">Devs</string>
+    <string name="about_scrolls">A national level technical paper presentation contest that provides a pedestal to unleash the talent of budding technocrats, SCROLLS-2015 deals with the most thriving and progressive fields of technology and management, bringing computing, information technology, mechanical engineering, electrical engineering, and telecommunication technologies along with major developmental leaps in management and leadership in its fold. Here, clarity and knowledge transcends through discussions over vast and diversified topics. So here is a chance to work with imagination, insight and confidence to ensure the onset of the new dawn.</string>
+    <string name="splash">“If you can imagine something that is beyond all the limitations, then, you have the urge to conquer the world.”</string>
+
+</resources>

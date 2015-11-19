@@ -1,0 +1,5 @@
+<resources>
+
+    <dimen name="drawer_content_padding">220dp</dimen>
+
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#eee"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enter team credentials"
+        android:textColor="@color/ColorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="#fff">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Team ID"
+            android:maxLength="20"
+            android:singleLine="true"
+            app:met_baseColor="@color/ColorPrimary"
+            app:met_clearButton="true"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="20"
+            app:met_primaryColor="?colorAccent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#fff">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Password"
+            android:maxLength="20"
+            android:singleLine="true"
+            app:met_baseColor="@color/ColorPrimary"
+            app:met_clearButton="true"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="20"
+            app:met_primaryColor="?colorAccent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <info.hoang8f.widget.FButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            fbutton:buttonColor="#80cbc4"
+            fbutton:cornerRadius="5dp"
+            fbutton:shadowColor="#4db6ac"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <info.hoang8f.widget.FButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            fbutton:buttonColor="#80cbc4"
+            fbutton:cornerRadius="5dp"
+            fbutton:shadowColor="#4db6ac"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Forgot Password"
+            android:textColor="#000" />
+    </LinearLayout>
+</LinearLayout>

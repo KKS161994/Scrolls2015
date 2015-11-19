@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="nav_menu_items">
+        <item>Home</item>
+        <item>Directory</item>
+        <item>Packages</item>
+        <item>FAQ</item>
+        <item>Distance Calculator</item>
+        <item>About Us</item>
+        <item>Contact Us</item>
+        <item>Policy Info</item>
+    </string-array>
+    <string-array name="course_array">
+        <item>B.Tech</item>
+        <item>MCA</item>
+        <item>MBA</item>
+        <item>M.Tech</item>
+        <item>PGDM</item>
+    </string-array>
+    <string-array name="year_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="domain_array">
+        <item>Computer Science Engg and Information Technology</item>
+        <item>Electronics and Communication Engg</item>
+        <item>Electrical and Electronics Engg</item>
+        <item>Management Science</item>
+        <item>Mechanical Engg</item>
+
+    </string-array>
+    <string-array name="topic_array">
+        <item>Static Transformer Technology</item>
+        <item>AC Power  Transmission over Long Distance</item>
+        <item>Hybrid Vehicle</item>
+        <item>Electricity Theft  Detection</item>
+        <item>Wind Power Development</item>
+        <item>SCADA in Power System</item>
+        <item>Power System Stability Enhancement Using UPFC</item>
+        <item>Smart Grid Technologies</item>
+        <item>MEMS Sensor/Actuators</item>
+        <item>Solar Power Development</item>
+        <item>Drives in Paper Mills</item>
+        <item>Drives in Steel Mills</item>
+        <item>Others</item>
+    </string-array>
+</resources>

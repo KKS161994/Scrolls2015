@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_checked="true" android:drawable="@drawable/custom_btn_orange">
+    </item>
+    <item android:state_checked="false" android:drawable="@color/gray_normal">
+    </item>
+</selector>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_checked="true" android:drawable="@drawable/custom_btn_orange">
+     </item>
+    <item android:state_checked="false" android:drawable="@color/gray_normal">
+       </item>
+</selector>
+>>>>>>> origin/kartikey
